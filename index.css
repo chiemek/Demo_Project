@@ -1,0 +1,79 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(11, 26, 57, 1) 35%,
+    rgba(70, 8, 95, 1) 100%
+  );
+  color: whitesmoke;
+}
+
+header {
+  font-family: "Roboto";
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(11, 26, 57, 1) 35%,
+    rgba(70, 8, 95, 1) 100%
+  );
+  color: whitesmoke;
+}
+
+h1 {
+  display: inline-flex;
+}
+
+div ul {
+  list-style-type: none;
+  display: inline-flex;
+  margin-inline: 2rem;
+  justify-content: space-between;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+a[target="_blank"] {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.passport {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.Photo {
+  height: 400px;
+  width: 100%;
+}
+h2 {
+  background: linear-gradient(to bottom, #000000 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 1.5 rem;
+}
